@@ -1,0 +1,18 @@
+mutation {
+  pluginUpdate(
+  id: "mirumee.notifications.admin_email"
+  input: {
+    active: true,
+  }
+  ) {
+    plugin {
+      name,
+      description
+    }
+    errors {
+      field
+      message
+      code
+    }
+  }
+}

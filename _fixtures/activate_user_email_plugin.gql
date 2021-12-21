@@ -1,0 +1,19 @@
+mutation {
+  pluginUpdate(
+  id: "mirumee.notifications.user_email"
+  channelId: "Q2hhbm5lbDox"
+  input: {
+    active: true,
+  }
+  ) {
+    plugin {
+      name,
+      description
+    }
+    errors {
+      field
+      message
+      code
+    }
+  }
+}

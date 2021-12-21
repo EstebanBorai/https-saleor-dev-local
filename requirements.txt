@@ -39,7 +39,8 @@ django-prices-vatlayer==1.1.0
 django-prices==2.2.0
 django-redis==5.2.0; python_version >= "3.6"
 django-storages==1.12.3; python_version >= "3.5"
-django-timezone-field==4.2.3; python_version >= "3.5"
+django-sslserver2==0.1.4
+django-timezone-field==4.2.1; python_version >= "3.5"
 django-versatileimagefield==2.2
 django==3.2.11; python_version >= "3.6"
 draftjs-sanitizer==1.0.0

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "staff_password_reset_subject",
+    "type": "String",
+    "label": "Reset password subject",
+    "value": "Staff password reset",
+    "help_text": "An email subject built with Handlebars template language."
+  },
+  {
+    "name": "staff_password_reset_template",
+    "type": "Multiline",
+    "label": "Reset password template",
+    "value": "DEFAULT",
+    "help_text": "An HTML template built with Handlebars template language. Leave it blank if you don't want to send an email for this action. Use the default Saleor template by providing the \"DEFAULT\" string as a value."
+  },
+  {
+    "name": "staff_order_confirmation_subject",
+    "type": "String",
+    "label": "Order confirmation subject",
+    "value": "Order {{ order.number }} details",
+    "help_text": "An email subject built with Handlebars template language."
+  },
+  {
+    "name": "staff_order_confirmation_template",
+    "type": "Multiline",
+    "label": "Order confirmation template",
+    "value": "DEFAULT",
+    "help_text": "An HTML template built with Handlebars template language. Leave it blank if you don't want to send an email for this action. Use the default Saleor template by providing the \"DEFAULT\" string as a value."
+  },
+  {
+    "name": "set_staff_password_subject",
+    "type": "String",
+    "label": "Set password subject",
+    "value": "Set password e-mail",
+    "help_text": "An email subject built with Handlebars template language."
+  },
+  {
+    "name": "set_staff_password_template",
+    "type": "Multiline",
+    "label": "Set password email template",
+    "value": "DEFAULT",
+    "help_text": "An HTML template built with Handlebars template language. Leave it blank if you don't want to send an email for this action. Use the default Saleor template by providing the \"DEFAULT\" string as a value."
+  },
+  {
+    "name": "csv_product_export_success_subject",
+    "type": "String",
+    "label": "CSV product export success subject",
+    "value": "Export products data",
+    "help_text": "An email subject built with Handlebars template language."
+  },
+  {
+    "name": "csv_product_export_success_template",
+    "type": "Multiline",
+    "label": "CSV product export success template",
+    "value": "DEFAULT",
+    "help_text": "An HTML template built with Handlebars template language. Leave it blank if you don't want to send an email for this action. Use the default Saleor template by providing the \"DEFAULT\" string as a value."
+  },
+  {
+    "name": "csv_export_failed_subject",
+    "type": "String",
+    "label": "CSV export failed template",
+    "value": "Export products data",
+    "help_text": "An email subject built with Handlebars template language."
+  },
+  {
+    "name": "csv_export_failed_template",
+    "type": "Multiline",
+    "label": "CSV export failed template",
+    "value": "DEFAULT",
+    "help_text": "An HTML template built with Handlebars template language. Leave it blank if you don't want to send an email for this action. Use the default Saleor template by providing the \"DEFAULT\" string as a value."
+  },
+  {
+    "name": "host",
+    "type": "String",
+    "label": "SMTP host",
+    "value": "mailhog",
+    "help_text": "The host to use for sending email. Leave it blank if you want to use system environment - EMAIL_HOST."
+  },
+  {
+    "name": "port",
+    "type": "String",
+    "label": "SMTP port",
+    "value": "1025",
+    "help_text": "Port to use for the SMTP server. Leave it blank if you want to use system environment - EMAIL_PORT."
+  },
+  {
+    "name": "username",
+    "type": "String",
+    "label": "SMTP user",
+    "value": null,
+    "help_text": "Username to use for the SMTP server. Leave it blank if you want to use system environment - EMAIL_HOST_USER."
+  },
+  {
+    "name": "password",
+    "type": "Password",
+    "label": "Password",
+    "value": null,
+    "help_text": "Password to use for the SMTP server. Leave it blank if you want to use system environment - EMAIL_HOST_PASSWORD."
+  },
+  {
+    "name": "sender_name",
+    "type": "String",
+    "label": "Sender name",
+    "value": "",
+    "help_text": "Name which will be visible as 'from' name."
+  },
+  {
+    "name": "sender_address",
+    "type": "String",
+    "label": "Sender email",
+    "value": "",
+    "help_text": "Sender email which will be visible as 'from' email."
+  },
+  {
+    "name": "use_tls",
+    "type": "Boolean",
+    "label": "Use TLS",
+    "value": false,
+    "help_text": "Whether to use a TLS (secure) connection when talking to the SMTP server. This is used for explicit TLS connections, generally on port 587. Use TLS/Use SSL are mutually exclusive, so only set one of these settings to True. Leave it blank if you want to use system environment - EMAIL_USE_TLS."
+  },
+  {
+    "name": "use_ssl",
+    "type": "Boolean",
+    "label": "Use SSL",
+    "value": false,
+    "help_text": "Whether to use an implicit TLS (secure) connection when talking to the SMTP server. In most email documentation this type of TLS connection is referred to as SSL. It is generally used on port 465. Use TLS/Use SSL are mutually exclusive, so only set one of these settings to True. Leave it blank if you want to use system environment - EMAIL_USE_SSL."
+  }
+]
